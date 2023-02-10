@@ -9,7 +9,7 @@ def spinner():
     angle = state['turn'] / 10
     right(angle)
     forward(100)
-    dot(120, 'red')
+    dot(120, 'blue')
     back(100)
     right(120)
     forward(100)
@@ -17,7 +17,7 @@ def spinner():
     back(100)
     right(120)
     forward(100)
-    dot(120, 'blue')
+    dot(120, 'red')
     back(100)
     right(120)
     update()
